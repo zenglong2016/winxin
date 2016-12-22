@@ -1,0 +1,78 @@
+<div class="m-container">
+	<header>
+		<ul class="iconfont">
+			<li>&#xe745;</li>
+			<li>   
+				<span class="active">热点</span>
+				<span>关注</span>
+			</li>
+			<li id="scan">&#xe684;</li>
+		</ul>
+	</header>	
+	<nav>
+		<ul>
+			<li class="active">足球现场</li> 
+			<li>足球生活</li>
+			<li>足球美女</li>
+		</ul>
+	</nav>
+	<section id="main-scroll">
+		<ul>
+			<li>
+				<img src="/course-webapp/images/img1.jpg">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+			<li>
+				<img src="/course-webapp/images/img2.png">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+			<li>
+				<img src="/course-webapp/images/img3.jpg">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+			<li>
+				<img src="/course-webapp/images/img4.jpg">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+			<li>
+				<img src="/course-webapp/images/img1.jpg">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+			<li>
+				<img src="/course-webapp/images/img2.png">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+			<li>
+				<img src="/course-webapp/images/img3.jpg">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+			<li>
+				<img src="/course-webapp/images/img4.jpg">
+				<b>西甲-巴萨3-4负 皇马1-1丢榜首</b>
+			</li>
+		</ul>
+	</section>
+	<footer>
+		<ul>
+			<li class="active">
+				<i class="iconfont">&#xe6bb;</i>
+				<b>首页</b>
+			</li>
+			<li>
+				<i class="iconfont" id="zhoubian">&#xe65c;</i>
+				<b>发现</b>
+			</li>
+			<li>
+				<i class="iconfont" id="camera">&#xe664;</i>
+			</li>
+			<li>
+				<i class="iconfont">&#xe735;</i>
+				<b>我的</b>
+			</li>
+			<li>
+				<i class="iconfont">&#xe603;</i>
+				<b>退出</b>
+			</li>
+		</ul>
+	</footer>
+</div>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>点餐系统</title>	
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="src/style/index.css"/>
+	</head>
+	<body>
+		<div class="tiShi">
+			<div id="tiShi-text"></div>
+			<div id="tiShi-down">	
+				<div id="sure">
+					确定
+				</div>
+				<div id="not-sure">
+					取消				
+				</div>
+			</div>
+		</div>
+		<div class="m-container">
+			<header>
+				<ul class="iconfont">
+					<li>&#xe745;</li>
+					<li id="fei">商品详情</li>
+					<li id="scan">&#xe684;</li>
+				</ul>
+			</header>
+			<section id="main-scroll">
+				<div style="height: 10px;"></div>
+				<div id="foods-title" style="margin: 0 auto;width: 95%;overflow: hidden;">
+					<ol>
+						<li>菜名</li>
+						<li>单价</li>
+						<li>数量</li>
+						<li>小计</li>
+						<li>操作</li>
+					</ol>
+				</div>
+				<div id="foods-list" style="margin: 0 auto;width: 95%;overflow: hidden;"></div>
+				<div style="height: 10px;"></div>
+				<div class="stores-sum">
+					<ol>
+						<li>总计：<span class="jiesuan"></span></li>
+						<li>节省：<span>￥0.00</span></li>
+						<li>合计：<span class="jiesuan"></span></li>
+					</ol>
+				</div>
+			</section>
+			<footer>
+				<ul>
+					<li>
+						客服
+					</li>
+					<li>
+						收藏
+					</li>
+					<li>
+						<a href="index.html"><i class="iconfont" id="home">&#xe6bb;</i></a>
+					</li>
+					<li>
+						<a href="goodDetail.html">返回</a>
+					</li>
+					<li id="foods-submit">
+						<a>结算</a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<script src="src/scripts/libs/jquery-1.12.3.js"></script>
+		<script src="src/scripts/libs/iscroll-probe.js"></script>
+		<script src="src/scripts/libs/jquery.cookie.js"></script>
+		<script src="src/scripts/index.js"></script>	
+	</body>
+</html>

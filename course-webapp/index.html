@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>点餐系统</title>	
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="src/style/index.css"/>
+	</head>
+	<body>
+		<div class="m-container">
+	<header>
+		<ul class="iconfont">
+			<li>&#xe745;</li>
+			<li>   
+				<span class="active" id="allFoods">点餐</span>
+				<span id="allDrink">饮料</span>
+			</li>
+			<li id="scan">&#xe684;</li>
+		</ul>
+	</header>	
+	<nav>
+		<ul id="nav">
+			<li class="active" id="foods-one">家常菜</li> 
+			<li id="foods-two">多人聚享</li>
+			<li id="foods-three">特色糕点</li>
+		</ul>
+	</nav>
+	<section id="main-scroll">
+		<ul id="foods">
+		</ul>
+	</section>
+	<footer>
+		<ul>
+			<li class="active" id="dianCan">
+				<i class="iconfont">&#xe6bb;</i>
+				<b>点餐</b>
+			</li>
+			<li id="yinLiao">
+				<i class="iconfont">&#xe65c;</i>
+				<b>饮料</b>
+			</li>
+			<li>
+				<i class="iconfont" id="camera">&#xe664;</i>
+			</li>
+			<li id="woDe">
+				<i class="iconfont">&#xe735;</i>
+				<b>我的</b>
+			</li>
+			<li id="tuiChu">
+				<i class="iconfont" id="tuiChu">&#xe603;</i>
+				<b>退出</b>
+			</li>
+		</ul>
+	</footer>
+</div>
+	<script src="src/scripts/libs/jquery-1.12.3.js"></script>
+	<script src="src/scripts/libs/iscroll-probe.js"></script>
+	<script src="src/scripts/libs/jquery.cookie.js"></script>
+	<script src="src/scripts/libs/jquery.fly.min.js"></script>
+	<script src="src/scripts/index.js"></script>	
+	</body>
+</html>
